@@ -25,24 +25,15 @@ Example:
 CombinedText,Score
 "Experienced C# developer with ML.NET knowledge",0.85
 "Junior software engineer familiar with Python",0.4
-```
-
-1. Setup & Run
+Setup & Run
 
 Open a terminal and navigate to the ResumeModelTrainer directory.
-
-2. Restore dependencies:
-```
+Restore dependencies:
 dotnet restore
-```
-3. Build the project:
-```
+Build the project:
 dotnet build
-```
-4. Run the trainer:
-```
+Run the trainer:
 dotnet run
-```
 The program will read data.csv, train a regression model, and save ResumeScorer.mlmodel to the ../MLModel/ directory relative to ResumeModelTrainer.
 Output
 
